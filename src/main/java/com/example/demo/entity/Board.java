@@ -21,4 +21,10 @@ public class Board {
         this.title = title;
         this.contents = contents;
     }
+
+    public void updateContents(String contents) { this.contents = contents
+    }
+
+    public void updateTitle(String title) { this.title = title;
+    }
 }
